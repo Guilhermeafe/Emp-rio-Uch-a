@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Sedan", serif;
+
+}
+
+
+body {
+    min-height: 100%;
+    background-image: url("https://pr0.nicelocal.br.com/HkW2q8Y5DRipFlTa1AdJ7g/2000x1500,q75/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2QWpTcYDC-3ruzkk1-txKR2pXnetf-wruZBaeZN3BMBkBtVrAiaV1nhg07zSOPyK7g");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+
+}
+
+header {
+    background: none;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+    width: 100vw;
+
+}
+
+footer {
+    font-weight: bold;
+    color: black;
+    background-color: #DCDCDC;
+    border-radius: 30px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 13px;
+    gap: 13px;
+}
+
+span {
+    color: red;
+}
+
+.caixaprincipal {
+    background-color: #DCDCDC;
+    width: 95%;
+    max-width: 859px;
+
+    padding: 10px;
+    border-radius: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -71px;
+
+}
+
+.instagram,
+.facebook {
+    height: 20px;
+
+}
+
+
+
+
+.logoheader {
+    height: 100px;
+}
+
+.logouchoa {
+    width: 440px;
+    margin-top: -124px;
+}
+
+a {
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+
+
+}
+
+a:hover {
+    cursor: pointer;
+    background-color: #7c7c7c6b;
+}
+
+.ifood {
+    width: 45px;
+}
+
+.whatsapp {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 70px;
+}
+
+@media(max-width:1460px) {
+    body{
+    background-size: auto;
+
+    }
+    header {
+        width: 80vw;
+        height: auto;
+    }
+
+    .logouchoa {
+        margin-top: -14px;
+    }
+
+    .caixaprincipal {
+        width: 80vw;
+        height: auto;
+    }
+
+    footer {
+        width: 80vw;
+        height: auto;
+    }
+
+}
